@@ -71,4 +71,5 @@ public class AirTicket implements Comparable<AirTicket>{
         return this.price - comparePrice.price;
     }
 
+
 }

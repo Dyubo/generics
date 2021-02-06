@@ -2,6 +2,7 @@ package ru.netology.repository;
 
 import ru.netology.domain.AirTicket;
 
+
 public class AitTicketRepository {
 
     private AirTicket[] items = new AirTicket[0];
