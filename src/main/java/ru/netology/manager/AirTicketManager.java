@@ -17,7 +17,7 @@ public class AirTicketManager {
         AirTicket[] result = new AirTicket[0];
 
         for (AirTicket ticket : allTickets) {
-            if (ticket.getFrom() == from && ticket.getTo() == to) {
+            if (ticket.getFrom() .equals(from) && ticket.getTo() .equals(to)) {
                 int length = result.length + 1;
                 AirTicket[] tmp = new AirTicket[length];
                 System.arraycopy(result, 0, tmp, 0, result.length);
